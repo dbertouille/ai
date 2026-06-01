@@ -1,0 +1,39 @@
+{
+  "require_location_keywords": [
+    "canada",
+    "north america"
+  ],
+  "experience_summary": "Senior software engineer with experience in: distributed systems, backend APIs, cloud infrastructure (AWS), observability, Kubernetes, and high-scale services. Strong Python, Go, and React background.",
+  "seed_companies": [
+    "1password",
+    "abnormalsecurity",
+    "affirm",
+    "ashbyhq",
+    "autodesk",
+    "cloudflare",
+    "cohere",
+    "coinbase",
+    "docker",
+    "dropbox",
+    "fastly",
+    "figma",
+    "gitlab",
+    "grafana",
+    "instacart",
+    "netflix",
+    "notion",
+    "okta",
+    "oxide",
+    "patreon",
+    "redis",
+    "shopify",
+    "sophos",
+    "stripe",
+    "tailscale",
+    "vanta",
+    "veeva",
+    "wealthsimple",
+    "zapier"
+  ],
+  "state_file": "data/jobsearch.json"
+}
