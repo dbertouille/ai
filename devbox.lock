@@ -1,0 +1,105 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "claude-code@latest": {
+      "last_modified": "2026-05-27T10:28:13Z",
+      "resolved": "github:NixOS/nixpkgs/4100e830e085863741bc69b156ec4ccd53ab5be0#claude-code",
+      "source": "devbox-search",
+      "version": "2.1.152",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/6ixqj3blc1b9yj24rq4lvw5hrm5gnc45-claude-code-2.1.152",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/6ixqj3blc1b9yj24rq4lvw5hrm5gnc45-claude-code-2.1.152"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/n3nvqjd04rjxiqls6awwn98a4wd9a754-claude-code-2.1.152",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/n3nvqjd04rjxiqls6awwn98a4wd9a754-claude-code-2.1.152"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zhhfv23kpl3k7j66zd8zi1f6ai434wgw-claude-code-2.1.152",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/zhhfv23kpl3k7j66zd8zi1f6ai434wgw-claude-code-2.1.152"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ls2wzf4f4fdai1iy11xvbladkq348czp-claude-code-2.1.152",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ls2wzf4f4fdai1iy11xvbladkq348czp-claude-code-2.1.152"
+        }
+      }
+    },
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-05-14T21:33:07Z",
+      "resolved": "github:NixOS/nixpkgs/8a1b0127302ea51e05bf4ea5a291743fac442406?lastModified=1778794387&narHash=sha256-BL04pOS9453Awkeb9f90XBJXBSkWxN%2BvB7HIgnL0iMM%3D"
+    },
+    "pass@latest": {
+      "last_modified": "2026-05-21T08:15:18Z",
+      "resolved": "github:NixOS/nixpkgs/4a29d733e8a7d5b824c3d8c958a946a9867b3eb2#pass",
+      "source": "devbox-search",
+      "version": "1.7.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/1l1y5zy7f7am4a56h32db0l80vr9llqy-password-store-1.7.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/1l1y5zy7f7am4a56h32db0l80vr9llqy-password-store-1.7.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/77bl4pz9wvd1dvaj72xhaavvfikl6ily-password-store-1.7.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/77bl4pz9wvd1dvaj72xhaavvfikl6ily-password-store-1.7.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/60jqns6yda118lkr020ry2wfmlfz30q9-password-store-1.7.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/60jqns6yda118lkr020ry2wfmlfz30q9-password-store-1.7.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/w9k8jw3j6g5131y1s1nbhxsgc06hkycz-password-store-1.7.4",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/w9k8jw3j6g5131y1s1nbhxsgc06hkycz-password-store-1.7.4"
+        }
+      }
+    }
+  }
+}
