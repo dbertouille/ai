@@ -67,6 +67,9 @@ If the user refers to a job by company name or title instead of ID, read `data/s
 ## Behavior
 
 - Run all commands from the project root (which contains `config/config.json` and `data/state.json`).
-- **On every invocation:** run `status` first and parse the JSON output. If `last_discover_time` is `null` or more than 24 hours before the current time, automatically run `discover` before proceeding with the user's requested action.
+- **On every invocation:** run `status` first and parse the JSON output. Also check the modification time of `config/jobsearch.json` using `stat` (use `stat -c %Y config/jobsearch.json` on Linux or `stat -f %m config/jobsearch.json` on macOS to get the mtime as a Unix timestamp). Automatically run `discover` before proceeding with the user's requested action if any of the following are true:
+  - `last_discover_time` is `null`
+  - `last_discover_time` is more than 24 hours before the current time
+  - `config/jobsearch.json` was modified after `last_discover_time`
 - If `$ARGUMENTS` is blank or unclear, ask the user what they want to do: discover new jobs, list existing ones, or dismiss one.
 - After any command completes, briefly summarize the result and suggest a logical next step (e.g. after discover → "Run list to see them"; after list → "Want to tailor your resume for any of these?").
